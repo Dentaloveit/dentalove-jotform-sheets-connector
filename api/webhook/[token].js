@@ -1,4 +1,4 @@
-const formidable = require('formidable');
+const { formidable } = require('formidable');
 const FORMS_CONFIG = require('../../lib/formsConfig');
 const { getSubmission } = require('../../lib/jotformApi');
 const { extractPersonal, extractSimpleAnswer } = require('../../lib/jotform');
