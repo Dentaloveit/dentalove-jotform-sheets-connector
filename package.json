@@ -1,0 +1,19 @@
+{
+  "name": "dentalove-jotform-sheets-connector",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "inspect-forms": "node scripts/fetch-form-structure.js",
+    "init-sheet-headers": "node scripts/init-sheet-headers.js"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "googleapis": "^144.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
